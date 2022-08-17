@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    padding: 15px;
+}
+
+body {
+    background: repeating-linear-gradient(45deg,
+            red 0%,
+            red 1%,
+            blue 1%,
+            blue 2%);
+}
+
+.heading,
+.photo,
+.list,
+.link {
+    background-color: white;
+}
+
+/* HEADING */
+
+.heading {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.heading h1 {
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.heading p {
+    font-size: 20px;
+}
+
+/* IMAGES */
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+figcaption {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.eevee {
+    width: 50%;
+    height: auto;
+    padding: 15px 0;
+    border-radius: 75px 0 75px 0;
+}
+
+.pokeball {
+    width: 12px;
+    height: auto;
+    margin: 0 5px;
+}
+
+/* Pokémon List */
+
+.list {
+    width: 100%;
+}
+
+.list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list ul {
+    display: flex;
+}
+
+.split {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.name-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    padding: 2.5px;
+    border-top: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.name,
+.type,
+.evolve,
+.version {
+    font-weight: bold;
+}
+
+.name {
+    font-size: 18px;
+    border: 2px double blue;
+    padding: 2.5px;
+}
+
+.info-card li {
+    padding-top: 2.5px;
+}
+
+/* LINK */
+
+.link {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.link a {
+    text-decoration: none;
+    color: red;
+}
+
+.link a:hover {
+    color: blue;
+}
